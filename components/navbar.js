@@ -39,7 +39,8 @@ let navbar =()=>{
                 <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnFUgCFysqwZkBTAZm16F_P_Z7DZFIKYIP4Q&usqp=CAU" alt=""><p>Playlist</p></a>
                 <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCbJgWDfuMKDILZkUjC3KZv138OEE5vlq5Q&usqp=CAU" alt=""><p>Download</p></a>
                 <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQci671fwnjVufArPs_iHZAbqWxJov3-rSeiQ&usqp=CAU" alt=""><p>Show More</p></a> 
-                 <hr>
+                <hr>
+                <h2>Subscription</h2>
     
     
             </div>

@@ -39,6 +39,7 @@ nav{
     margin-right: 15px;
     padding: 10px 15px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .mic-icon{
     width: 20px;
@@ -105,3 +106,70 @@ nav{
     background-color: #fff;
     width: 5%;
 }
+.top-nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-left: 272px;
+    /* border: 1px solid red; */
+}
+.top-nav div{
+    padding: 10px;
+    cursor: pointer;
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    background-color: rgb(240, 239, 239);
+    border-radius: 5px;
+}
+.top-nav div a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+#container{
+        
+    padding-left: 25%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: space-between;
+    grid-gap: 2%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#container img{
+    width: 100%;
+}
+#main {
+    padding-left: 20%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+#main {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: space-between;
+    grid-gap: 2%;
+    cursor: pointer;
+    text-align: center;
+}
+#main img{
+    width: 100%;
+}
+
+
+#main{
+    padding-left: 20%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+
