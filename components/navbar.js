@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube</title>
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" type="image/x-icon">
-</head>
-<body>
-    <div id="Navbar"></div>
-    <!-- <nav>
+let navbar =()=>{
+    return `
+    <nav>
         <div id="navbar">
             <div id="left-navbar">
                 <a class="menu-icon" id="show-menu">
@@ -55,7 +45,7 @@
             </div>
     
         </div>
-    </nav> -->
-</body>
-<script type="module" src="./src/nav.js"></script>
-</html>
+    </nav>
+    `
+}
+export {navbar}

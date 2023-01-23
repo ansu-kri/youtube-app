@@ -78,7 +78,7 @@ nav{
     height: 100vh;
     position: fixed;
     top: 70px;
-    padding-left: 1%;
+    /* padding-left: 1%; */
     padding-top: 10px;
     /* border: 2px solid red; */
     margin-right: 20px;
@@ -99,9 +99,9 @@ nav{
     text-decoration: none;
 }
 
-.slidebar hr{
+.slidebar .shortcut-links hr{
     border: 0;
     height: 1px;
     background-color: #fff;
-    width: 85%;
+    width: 5%;
 }
