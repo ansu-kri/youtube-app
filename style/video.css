@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#video_details{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#video_content{
+    width: 80%;
+    /* border: 1px solid lightblue; */
+    margin: auto;
+    margin-left: 300px;
+    /* margin-top: 20px; */
+}
+#video_details img{
+    width: 100%;
+}
